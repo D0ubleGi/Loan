@@ -1,7 +1,7 @@
 {
   "name": "Loans",
   "short_name": "Loans",
-  "description": "A simple and functional Todo List app",
+  "description": "A simple and functional loan app",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
