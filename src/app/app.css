@@ -986,7 +986,6 @@ background-color: rgba(0, 0, 0, 0.7);
   flex-direction: row;
 }
 
-/* Due date states → all brown */
 #duedate.overdue,
 #duedate.soon,
 #duedate.onTime {
@@ -994,8 +993,7 @@ background-color: rgba(0, 0, 0, 0.7);
   font-weight: 700;
 }
 
-/* Small screens */
-@media (max-width: 1024px) {
+@media (max-width: 360px) {
   #task { width: 94%; }
   [id^="row_"] { grid-template-columns: 100px 1fr; }
 }
