@@ -3027,7 +3027,10 @@ background-color: #ff7700;
     width: 330px;
     font-size: 13px;
   }
- 
+  #task{
+        box-shadow: 0 0 10px brown;
+
+  }
   #tlistt{
     font-size: 16px;
   }
