@@ -19,6 +19,7 @@ import { NgZone } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { EmptyError, filter, repeat, Subject } from 'rxjs';
 import { HttpClient } from '@angular/common/http'; 
+import { Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -36,6 +37,7 @@ export class AppComponent implements OnInit, AfterViewInit, AfterViewChecked {
     private router: Router,
     private zone: NgZone,
     private http: HttpClient,
+    private titleService: Title,
     @Inject(PLATFORM_ID) private platformId: Object  
   ) {}
 username='';
@@ -246,6 +248,7 @@ date2='';
 ami='';
   display: string = '';
 ngOnInit() { 
+    this.titleService.setTitle("Loans");
   this.socket.onerror((err)=>{
     if(err==='utaken'){
       this.validation4.nativeElement.textContent="❌ Username is already taken!";
