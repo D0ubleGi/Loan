@@ -1,6 +1,6 @@
 {
-  "name": "Todolist",
-  "short_name": "Todolist",
+  "name": "Loans",
+  "short_name": "Loans",
   "description": "A simple and functional Todo List app",
   "display": "standalone",
   "scope": "./",
