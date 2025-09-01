@@ -1726,7 +1726,9 @@ finanoi(){
   this.fulls.nativeElement.style.display='none';
   this.case.nativeElement.style.display='none';
   this.meall.nativeElement.style.display='flex';
+  if(this.isPhone()){
   this.saode.nativeElement.style.display='flex';
+  }
 }
 govii(){
 this.financ.nativeElement.style.display='flex';
