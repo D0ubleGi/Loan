@@ -365,6 +365,8 @@ ngOnInit() {
       this.todos.nativeElement.style.justifyContent='center';
       this.todos.nativeElement.style.alignItems='center';
       this.todos.nativeElement.textContent='No added lists!';
+            this.searchts.nativeElement.style.display='none';
+
     }
     else{
       this.todos.nativeElement.style.display='';
@@ -412,6 +414,8 @@ this.button17.nativeElement.addEventListener('click', handler);
         this.socket.loadtasks(aa);
         this.socket.loadid(idd);
         this.socket.users(idd);
+        this.searchts.nativeElement.style.display='none';
+
     }
       });
       this.todos.nativeElement.appendChild(divi);
@@ -622,9 +626,7 @@ const yyyyTime = today.getFullYear();
     });
   }
 
-  this.srch.nativeElement.textContent = "Search tasks";
-  this.inpi.nativeElement.placeholder = 'Enter tasks name...';
-  this.inpi.nativeElement.title = 'Enter tasks name!';
+ this.searchts.nativeElement.style.display='none';
 
 });
 
