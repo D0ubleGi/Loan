@@ -960,11 +960,11 @@ gaatote(f1:number,f2:number){
     this.profitta.nativeElement.style.fontSize='12px';
   }
   if(num<0){
-    this.profitta.nativeElement.textContent=String(num)+' USD';
+    this.profitta.nativeElement.textContent=String(num.toFixed(1))+' USD';
     this.profitta.nativeElement.style.color='red';
   }
   else{
-    this.profitta.nativeElement.textContent=String(num)+' USD';
+    this.profitta.nativeElement.textContent=String(num.toFixed(1))+' USD';
     this.profitta.nativeElement.style.color='green';
   }
 }

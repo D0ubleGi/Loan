@@ -2949,8 +2949,8 @@ background-color: #ff7700;
 
 
 
-@media (max-width: 1024px) {
-    #Todolists{
+@media (min-width: 406px) and (max-width: 1024px) {
+        #Todolists{
         display: none;
         margin-top: 30px;
         box-shadow: 0 0 10px brown;
@@ -3519,6 +3519,1724 @@ height: 20px;
     color: white;
 }
 }
+
+
+
+@media (max-width: 385px) {
+  /* ---------------------------------------------------- */
+  #Todolists{
+    display: none;
+    margin-top: 20px;
+    box-shadow: 0 0 8px brown;
+    font-size: 13px;
+    scale: 0.9;
+    margin-right: 20px;
+  }
+  #searchts{
+    display: none;
+    width: 130px;
+    height: auto;
+    right: 1%;
+    top: 1%;
+    box-shadow: 0 0 8px brown;
+  }
+  #usis{ font-size: 9px; }
+  #srch{ font-size: 14px; }
+  #ent{ font-size: 12px; }
+  #inpi{
+    height: 9px;
+    width: auto;
+  }
+  #validation19{
+    font-size: 10px;
+    min-height: 0;
+  }
+  #button21{
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+
+  /* ------------------------------------------ */
+  #liske {
+    min-width: 130px;
+    height: 120px;
+    right: 8px;
+    top: 8px;
+    padding: 5px;
+    display: none;
+    box-shadow: 0 0 8px brown;
+    padding-bottom: 0;
+  }
+  #ko { font-size: 11px; padding: 4px; }
+  #salike { min-height: 80px; font-size: 11px; }
+  #button22 {
+    padding: 1px 4px;
+    font-size: 10px;
+    margin: 2px;
+    margin-top: -4px;
+  }
+
+  /* --------------------------------------------------------------------- */
+  #lists{
+    scale: 0.93;
+    margin-right: 20px;
+  }
+  #cratetask{ box-shadow: 0 0 8px brown; }
+  #idregister{ box-shadow: 0 0 8px brown; }
+  #idcrate{ box-shadow: 0 0 8px brown; }
+  #tlistt{ font-size: 14px; }
+  #meall{
+    display: none;
+    left: 30%;
+    top: 85%;
+    font-size: 11px;
+    box-shadow: 0 0 4px brown;
+  }
+  .avb{ font-size: 11px; }
+
+  /* -------------------------------------------------------------- */
+  #userss{
+    display: none;
+    font-size: 11px;
+    width: 110px;
+    margin-top: -5px;
+    box-shadow: 0 0 8px brown;
+  }
+  #button199{
+    font-size: 10px;
+    padding: 2px;
+    width: 35px;
+  }
+  #inst{ display: none; }
+  #usis{
+    width: auto;
+    height: 65px;
+  }
+  #usiks{
+    padding-top: 6px;
+    margin-top: 0;
+    padding-bottom: 5px;
+  }
+
+  /* -------------------------------------------------------------- */
+  #maio{
+    display: none;
+    font-size: 11px;
+    box-shadow: 0 0 8px brown;
+    padding-top: 5px;
+    width: auto;
+    height: auto;
+    padding-bottom: 5px;
+    right: -1%;
+    top: 1%;
+    border: 1px solid brown;
+    padding: 5px 5px 7px;
+  }
+  #opis{
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+  }
+  #oplk{ width: 160px; }
+  #button32{
+    height: 16px;
+    width: 16px;
+    top: -17%;
+    font-size: 11px;
+    margin-top: 4px;
+  }
+  #cont{
+    width: 160px;
+    padding: 3px;
+    gap: 4px;
+  }
+  #button31{
+    background: black;
+    color: brown;
+  }
+  #dropd{
+    right: -2%;
+    display: flex;
+    flex-direction: row;
+  }
+  .finance{
+    height: 14px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ------------------------------------------------------------ */
+  #login{ font-size: 12px; }
+  #register{ font-size: 12px; }
+  #crateacc{ font-size: 12px; }
+  #button54{ font-size: 12px; }
+  #button3{ font-size: 12px; }
+
+  /* ----------------------------------------------- */
+  .butt{ font-size: 8px; }
+  #button12, #button7{ font-size: 9px; }
+  #opts{
+    display: none;
+    left: 12%;
+    top: 38%;
+    font-size: 11px;
+    width: auto;
+  }
+  .ds{
+    font-size: 10px;
+    width: 56px;
+  }
+  #button44{
+    width: 14px;
+    height: 14px;
+    margin-right: 1px;
+  }
+
+  /* ------------------------------------------------------------------------- */
+  #datees{
+    display: none;
+    left: 12%;
+    top: 37%;
+    font-size: 11px;
+  }
+  #button42{
+    font-size: 11px;
+    width: 38px;
+    height: 20px;
+  }
+  #button40{
+    width: 44px;
+    height: 20px;
+    font-size: 11px;
+    margin-top: 2px;
+  }
+  #dob{
+    height: 12px;
+    width: 220px;
+  }
+  #hg{ margin-top: 0; }
+  #tooo{ margin-top: 0; }
+  #validation37, #validation38{ min-height: 2px; }
+
+  /* ---------------------------------------------------------------------- */
+  #filtri{
+    display: none;
+    left: 12%;
+    top: 37%;
+    font-size: 11px;
+  }
+  #filinp{
+    height: 12px;
+    width: 220px;
+  }
+
+  /* ---------------------------------------------------- */
+  #saaide{ display: none; }
+  #saode{
+    color: white;
+    border: 2px solid brown;
+    border-radius: 7px;
+    width: 44px;
+    height: 44px;
+    background: none;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: 0.15s linear;
+    background-color: black;
+    color: brown;
+    margin-right: 3px;
+  }
+  #saode:hover{
+    color: black;
+    background-color: brown;
+    box-shadow: 0 0 8px 0 brown;
+    transform: scale(1.04);
+    cursor: pointer;
+  }
+  #saode:active{ color: white; }
+  #dropd{ display: flex; flex-direction: row; }
+  #saaide{
+    display: none;
+    position: absolute;
+    font-size: 9.5px;
+    margin-left: 80px;
+    top: 1.5%;
+  }
+  #iduu{
+    font-size: 11px;
+    flex-direction: row;
+  }
+
+  #daxuri{
+    background-image: url('../assets/images/cross.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: flex;
+    right: 3%;
+    top: 12%;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+  }
+  #daxuri:hover{
+    scale: 1.04;
+    box-shadow: 0 0 8px red;
+  }
+
+  /* ------------------------------------------------------------------ */
+  #cratetask{ font-size: 11px; }
+
+  #taskname, #tasktitle, #maxusss, #taskdesc{
+    height: 13px;
+  }
+  #avv{ margin-top: -3px; }
+
+  /* ---------------------------------------------------------------- */
+  #fulls{
+    font-size: 10px;
+    width: auto;
+    height: auto;
+    padding-bottom: 8px;
+  }
+  .safio{
+    width: 170px;
+    height: 170px;
+  }
+  .tots{ font-size: 10px; }
+  #dethold{
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  #hsba{
+    margin: 0;
+    padding: 0;
+    height: 24px;
+    align-items: center;
+  }
+  .mf{ margin-left: 48px; }
+  .govi{
+    font-size: 11px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 1px solid brown;
+  }
+  #goff{ font-size: 9px; }
+
+  /* --------------------------------------------------------------------- */
+  #financ{
+    font-size: 11px;
+    left: 6%;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  .asa{ font-size: 10px; }
+  #pofa{ font-size: 10px; }
+  #pofis{ font-size: 10px; }
+  #checkss{ border-bottom: 1px solid #8B5E3C; }
+
+  /* ------------------------------------------------------ */
+  .fxp-box{
+    width: 285px;
+    font-size: 11px;
+    margin: 0;
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+  #resulti{
+    height: 28px;
+    margin-top: 12px;
+  }
+  .fxp-head{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  .fxp-btn{
+    font-size: 14px;
+    margin-top: 26px;
+  }
+  #button43{
+    background-image: url('../assets/images/cross.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 0;
+    border-radius: 20px;
+    background-color: none;
+    color: transparent;
+    width: 18px;
+    height: 18px;
+    left: 95.5%;
+    top: -25%;
+  }
+
+  /* ------------------------------------------------ */
+  #yesno{
+    left: 12.8%;
+    top: 38%;
+    min-width: 260px;
+    font-size: 11px;
+  }
+  .btta{ margin-left: 2px; }
+
+  /* -------------------------------------------------------------------- */
+  #idregister{ font-size: 10px; }
+  #idcrate{ font-size: 11px; }
+  #button14v{ width: 36px; }
+  #indiv{ font-size: 10px; }
+
+  /* -------------------------------------------------------------------- */
+  #task{ margin-top: 60px; }
+  #sataske{ font-size: 11px; }
+
+  /* ------------------------------------------------------------------------- */
+  #deski{
+    position: relative;
+    width: auto;
+    padding-bottom: 60px;
+    margin-top: 18px;
+  }
+  #de{
+    margin: 0;
+    padding: 0;
+  }
+  #konti{
+    height: 180px;
+    width: 280px;
+  }
+  #taskdescription{
+    min-height: 150px;
+    font-size: 11px;
+  }
+  #button27{
+    position: absolute;
+    top: -1.2%;
+    right: 4%;
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    padding: 0;
+    border-radius: 50%;
+    background-image: url('../assets/images/cross.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+  }
+
+  /* ------------------------------------------------------------------------------ */
+  .case{
+    transform: scale(0.72);
+    margin-left: 12px;
+    margin-top: 50px;
+  }
+  .btn op{
+    width: 36px;
+    height: 36px;
+  }
+
+  /* ---------------------------------------------------- */
+  #login{ scale: 0.85; }
+  #register{ scale: 0.85; 
+margin-right: 20px;
+}
+  #authetic{
+    scale: 0.8;
+    font-size: 9px;
+    left: 40.5%;
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  #codl{ font-size: 11px; }
+  #verif{
+    font-size: 15px;
+    color: white;
+  }
+  #instr{ font-size: 11px; }
+  #button51{
+    font-size: 11px;
+    margin-left: 0;
+  }
+  #restpp{
+    background-color: rgba(0, 0, 0, 0.85);
+    left: 10.1%;
+    scale: 0.85;
+  }
+  #opser{ font-size: 12px; }
+  #opse{ color: white; }
+
+  #cratetask{
+    scale: 0.92;
+    font-size: 13px;
+    margin-right: 20px;
+  }
+
+  #datees{
+    scale: 0.95;
+    left: 14.4%;
+  }
+  #opts{
+    scale: 0.95;
+    left: 13.3%;
+  }
+  #op{
+    font-size: 15px;
+  }
+  #ip{
+    font-size: 12.5px;
+  }
+  #filtri{
+    scale: 0.95;
+    left: 14.77%;
+  }
+  #na{
+    font-size: 15px;
+  }
+  #ca{
+    font-size: 13px;
+  }
+
+  #task{
+    scale: 0.92;
+    margin-right: 21px;
+  }
+#login{
+    margin-right: 16px;
+}
+#deski{
+    scale: 0.92;
+    margin-right: 20px;
+}
+   #button31{
+    color: white;
+    border: 2px solid brown;
+    border-radius: 7px;
+    width: 44px;
+    height: 44px;
+    background: none;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: 0.15s linear;
+    background-color: black;
+    color: brown;
+    margin-right: 12px;
+  }
+  #button31:hover{
+    color: black;
+    background-color: brown;
+    box-shadow: 0 0 8px 0 brown;
+    transform: scale(1.04);
+    cursor: pointer;
+  }
+  #button31:active{ color: white; }
+  #saaide{
+    scale: 1.14;
+    margin-top: 5px;
+  }
+  #maio{
+    margin-top: 5.4px;
+    margin-right: 14px;
+  }
+  #userss{
+    scale: 1.05;
+    margin-top: 1px;
+  }
+  #fulls{
+    margin-right: 20px;
+  }
+  #financ{
+    scale: 0.85;
+    left: 3%;
+    font-size: 13px;
+  }
+  #ttt{
+    font-size: 15px;
+  }
+  .asa, #pofis{
+    font-size: 13.5px;
+  }
+  #pofa{
+    font-size: 12px;
+  }
+  .fxp-box{
+    font-size: 13px;
+    margin-right: 19px;
+  }
+
+  .case{
+    margin-right: 27px;
+  }
+  #idregister{
+    scale: 0.82;
+    margin-right: 13.7px;
+    font-size: 13px;
+  }
+  #idcrate{
+    scale: 0.82;
+    margin-right: 15px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 385px) and (max-width: 395px) {
+ #Todolists{
+    display: none;
+    margin-top: 19px;
+    box-shadow: 0 0 8px brown;
+    font-size: 13px;
+    scale: 0.9;
+    margin-right: 20px;
+  }
+  #searchts{
+    display: none;
+    width: 130px;
+    height: auto;
+    right: 1%;
+    top: 1%;
+    box-shadow: 0 0 8px brown;
+  }
+  #usis{ font-size: 9px; }
+  #srch{ font-size: 14px; }
+  #ent{ font-size: 12px; }
+  #inpi{
+    height: 9px;
+    width: auto;
+  }
+  #validation19{
+    font-size: 10px;
+    min-height: 0;
+  }
+  #button21{
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+
+  /* ------------------------------------------ */
+  #liske {
+    min-width: 130px;
+    height: 120px;
+    right: 8px;
+    top: 8px;
+    padding: 5px;
+    display: none;
+    box-shadow: 0 0 8px brown;
+    padding-bottom: 0;
+  }
+  #ko { font-size: 11px; padding: 4px; }
+  #salike { min-height: 80px; font-size: 11px; }
+  #button22 {
+    padding: 1px 4px;
+    font-size: 10px;
+    margin: 2px;
+    margin-top: -4px;
+  }
+
+  /* --------------------------------------------------------------------- */
+  #lists{
+    scale: 0.93;
+    margin-right: 19px;
+  }
+  #cratetask{ box-shadow: 0 0 8px brown; }
+  #idregister{ box-shadow: 0 0 8px brown; }
+  #idcrate{ box-shadow: 0 0 8px brown; }
+  #tlistt{ font-size: 18px; }
+  #meall{
+    display: none;
+    left: 30%;
+    top: 85%;
+    font-size: 11px;
+    box-shadow: 0 0 4px brown;
+  }
+  .avb{ font-size: 11px; }
+
+  /* -------------------------------------------------------------- */
+  #userss{
+    display: none;
+    font-size: 11px;
+    width: 110px;
+    margin-top: -5px;
+    box-shadow: 0 0 8px brown;
+  }
+  #button199{
+    font-size: 10px;
+    padding: 2px;
+    width: 35px;
+  }
+  #inst{ display: none; }
+  #usis{
+    width: auto;
+    height: 65px;
+  }
+  #usiks{
+    padding-top: 6px;
+    margin-top: 0;
+    padding-bottom: 5px;
+  }
+
+  /* -------------------------------------------------------------- */
+  #maio{
+    display: none;
+    font-size: 11px;
+    box-shadow: 0 0 8px brown;
+    padding-top: 5px;
+    width: auto;
+    height: auto;
+    padding-bottom: 5px;
+    right: -1%;
+    top: 1%;
+    border: 1px solid brown;
+    padding: 5px 5px 7px;
+  }
+  #opis{
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+  }
+  #oplk{ width: 160px; }
+  #button32{
+    height: 16px;
+    width: 16px;
+    top: -17%;
+    font-size: 11px;
+    margin-top: 4px;
+  }
+  #cont{
+    width: 160px;
+    padding: 3px;
+    gap: 4px;
+  }
+  #button31{
+    background: black;
+    color: brown;
+  }
+  #dropd{
+    right: -2%;
+    display: flex;
+    flex-direction: row;
+  }
+  .finance{
+    height: 14px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ------------------------------------------------------------ */
+  #login{ font-size: 12px; }
+  #register{ font-size: 12px; }
+  #crateacc{ font-size: 12px; }
+  #button54{ font-size: 12px; }
+  #button3{ font-size: 12px; }
+
+  /* ----------------------------------------------- */
+  .butt{ font-size: 8px; }
+  #button12, #button7{ font-size: 9px; }
+  #opts{
+    display: none;
+    left: 12%;
+    top: 38%;
+    font-size: 11px;
+    width: auto;
+  }
+  .ds{
+    font-size: 10px;
+    width: 56px;
+  }
+  #button44{
+    width: 14px;
+    height: 14px;
+    margin-right: 1px;
+  }
+
+  /* ------------------------------------------------------------------------- */
+  #datees{
+    display: none;
+    left: 12%;
+    top: 37%;
+    font-size: 11px;
+  }
+  #button42{
+    font-size: 11px;
+    width: 38px;
+    height: 20px;
+  }
+  #button40{
+    width: 44px;
+    height: 20px;
+    font-size: 11px;
+    margin-top: 2px;
+  }
+  #dob{
+    height: 12px;
+    width: 220px;
+  }
+  #hg{ margin-top: 0; }
+  #tooo{ margin-top: 0; }
+  #validation37, #validation38{ min-height: 2px; }
+
+  /* ---------------------------------------------------------------------- */
+  #filtri{
+    display: none;
+    left: 12%;
+    top: 37%;
+    font-size: 11px;
+  }
+  #filinp{
+    height: 12px;
+    width: 220px;
+  }
+
+  /* ---------------------------------------------------- */
+  #saaide{ display: none; }
+  #saode{
+    color: white;
+    border: 2px solid brown;
+    border-radius: 7px;
+    width: 44px;
+    height: 44px;
+    background: none;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: 0.15s linear;
+    background-color: black;
+    color: brown;
+    margin-right: 3px;
+  }
+  #saode:hover{
+    color: black;
+    background-color: brown;
+    box-shadow: 0 0 8px 0 brown;
+    transform: scale(1.04);
+    cursor: pointer;
+  }
+  #saode:active{ color: white; }
+  #dropd{ display: flex; flex-direction: row; }
+  #saaide{
+    display: none;
+    position: absolute;
+    font-size: 9.5px;
+    margin-left: 80px;
+    top: 1.5%;
+  }
+  #iduu{
+    font-size: 11px;
+    flex-direction: row;
+  }
+
+  #daxuri{
+    background-image: url('../assets/images/cross.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: flex;
+    right: 3%;
+    top: 12%;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+  }
+  #daxuri:hover{
+    scale: 1.04;
+    box-shadow: 0 0 8px red;
+  }
+
+  /* ------------------------------------------------------------------ */
+  #cratetask{ font-size: 11px; }
+
+  #taskname, #tasktitle, #maxusss, #taskdesc{
+    height: 13px;
+  }
+  #avv{ margin-top: -3px; }
+
+  /* ---------------------------------------------------------------- */
+  #fulls{
+    font-size: 10px;
+    width: auto;
+    height: auto;
+    padding-bottom: 8px;
+  }
+  .safio{
+    width: 170px;
+    height: 170px;
+  }
+  .tots{ font-size: 10px; }
+  #dethold{
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  #hsba{
+    margin: 0;
+    padding: 0;
+    height: 24px;
+    align-items: center;
+  }
+  .mf{ margin-left: 48px; }
+  .govi{
+    font-size: 11px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 1px solid brown;
+  }
+  #goff{ font-size: 9px; }
+
+  /* --------------------------------------------------------------------- */
+  #financ{
+    font-size: 11px;
+    left: 6%;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  .asa{ font-size: 10px; }
+  #pofa{ font-size: 10px; }
+  #pofis{ font-size: 10px; }
+  #checkss{ border-bottom: 1px solid #8B5E3C; }
+
+  /* ------------------------------------------------------ */
+  .fxp-box{
+    width: 285px;
+    font-size: 11px;
+    margin: 0;
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+  #resulti{
+    height: 28px;
+    margin-top: 12px;
+  }
+  .fxp-head{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  .fxp-btn{
+    font-size: 14px;
+    margin-top: 26px;
+  }
+  #button43{
+    background-image: url('../assets/images/cross.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 0;
+    border-radius: 20px;
+    background-color: none;
+    color: transparent;
+    width: 18px;
+    height: 18px;
+    left: 95.5%;
+    top: -25%;
+  }
+
+  /* ------------------------------------------------ */
+  #yesno{
+    left: 12.8%;
+    top: 38%;
+    min-width: 260px;
+    font-size: 11px;
+  }
+  .btta{ margin-left: 2px; }
+
+  /* -------------------------------------------------------------------- */
+  #idregister{ font-size: 10px; }
+  #idcrate{ font-size: 11px; }
+  #button14v{ width: 36px; }
+  #indiv{ font-size: 10px; }
+
+  /* -------------------------------------------------------------------- */
+  #task{ margin-top: 60px; }
+  #sataske{ font-size: 11px; }
+
+  /* ------------------------------------------------------------------------- */
+  #deski{
+    position: relative;
+    width: auto;
+    padding-bottom: 60px;
+    margin-top: 18px;
+  }
+  #de{
+    margin: 0;
+    padding: 0;
+  }
+  #konti{
+    height: 180px;
+    width: 280px;
+  }
+  #taskdescription{
+    min-height: 150px;
+    font-size: 11px;
+  }
+  #button27{
+    position: absolute;
+    top: -1.2%;
+    right: 4%;
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    padding: 0;
+    border-radius: 50%;
+    background-image: url('../assets/images/cross.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+  }
+
+  /* ------------------------------------------------------------------------------ */
+  .case{
+    transform: scale(0.72);
+    margin-left: 12px;
+    margin-top: 50px;
+  }
+  .btn op{
+    width: 36px;
+    height: 36px;
+  }
+
+  /* ---------------------------------------------------- */
+  #login{ scale: 0.85; }
+  #register{ scale: 0.85; 
+margin-right: 20px;
+}
+  #authetic{
+    scale: 0.8;
+    font-size: 9px;
+    left: 40.5%;
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  #codl{ font-size: 11px; }
+  #verif{
+    font-size: 15px;
+    color: white;
+  }
+  #instr{ font-size: 11px; }
+  #button51{
+    font-size: 11px;
+    margin-left: 0;
+  }
+  #restpp{
+    background-color: rgba(0, 0, 0, 0.85);
+    left: 9.5%;
+    scale: 0.85;
+    top: 37%;
+  }
+  #opser{ font-size: 12px; }
+  #opse{ color: white; }
+
+  #cratetask{
+    scale: 0.92;
+    font-size: 13px;
+    margin-right: 20px;
+  }
+
+  #datees{
+    scale: 0.95;
+    left: 16.65%;
+  }
+  #opts{
+    scale: 0.95;
+    left: 15.1%;
+  }
+  #op{
+    font-size: 15px;
+  }
+  #ip{
+    font-size: 12.5px;
+  }
+  #filtri{
+    scale: 0.95;
+    left: 16.6%;
+  }
+  #na{
+    font-size: 15px;
+  }
+  #ca{
+    font-size: 13px;
+  }
+
+  #task{
+    scale: 0.92;
+    margin-right: 21px;
+  }
+#login{
+    margin-right: 17.5px;
+    scale: 0.93;
+}
+#deski{
+    scale: 0.92;
+    margin-right: 20px;
+}
+   #button31{
+    color: white;
+    border: 2px solid brown;
+    border-radius: 7px;
+    width: 44px;
+    height: 44px;
+    background: none;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: 0.15s linear;
+    background-color: black;
+    color: brown;
+    margin-right: 12px;
+  }
+  #button31:hover{
+    color: black;
+    background-color: brown;
+    box-shadow: 0 0 8px 0 brown;
+    transform: scale(1.04);
+    cursor: pointer;
+  }
+  #button31:active{ color: white; }
+  #saaide{
+    scale: 1.14;
+    margin-top: 5px;
+  }
+  #maio{
+    margin-top: 2px;
+    margin-right: 14px;
+  }
+  #userss{
+    scale: 1.05;
+    margin-top: -2px;
+  }
+  #fulls{
+    margin-right: 20px;
+  }
+  #financ{
+    scale: 0.85;
+    left: 5%;
+    font-size: 13px;
+  }
+  #ttt{
+    font-size: 15px;
+  }
+  .asa, #pofis{
+    font-size: 13.5px;
+  }
+  #pofa{
+    font-size: 12px;
+  }
+  .fxp-box{
+    font-size: 13px;
+    margin-right: 19px;
+  }
+
+  .case{
+    margin-right: 27px;
+  }
+  #idregister{
+    scale: 0.82;
+    margin-right: 13.7px;
+    font-size: 13px;
+  }
+  #idcrate{
+    scale: 0.82;
+    margin-right: 15px;
+    font-size: 13px;
+  }
+  #meall{
+    margin-left: 7px;
+  }
+}
+
+@media (min-width: 396px) and (max-width: 405px) {
+ #Todolists{
+    display: none;
+    margin-top: 19px;
+    box-shadow: 0 0 8px brown;
+    font-size: 13px;
+    scale: 0.9;
+    margin-right: 18.5px;
+  }
+  #searchts{
+    display: none;
+    width: 130px;
+    height: auto;
+    right: 1%;
+    top: 1%;
+    box-shadow: 0 0 8px brown;
+  }
+  #usis{ font-size: 9px; }
+  #srch{ font-size: 14px; }
+  #ent{ font-size: 12px; }
+  #inpi{
+    height: 9px;
+    width: auto;
+  }
+  #validation19{
+    font-size: 10px;
+    min-height: 0;
+  }
+  #button21{
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+
+  /* ------------------------------------------ */
+  #liske {
+    min-width: 130px;
+    height: 120px;
+    right: 8px;
+    top: 8px;
+    padding: 5px;
+    display: none;
+    box-shadow: 0 0 8px brown;
+    padding-bottom: 0;
+  }
+  #ko { font-size: 11px; padding: 4px; }
+  #salike { min-height: 80px; font-size: 11px; }
+  #button22 {
+    padding: 1px 4px;
+    font-size: 10px;
+    margin: 2px;
+    margin-top: -4px;
+  }
+
+  /* --------------------------------------------------------------------- */
+  #lists{
+    scale: 0.93;
+    margin-right: 19px;
+  }
+  #cratetask{ box-shadow: 0 0 8px brown; }
+  #idregister{ box-shadow: 0 0 8px brown; }
+  #idcrate{ box-shadow: 0 0 8px brown; }
+  #tlistt{ font-size: 18px; }
+  #meall{
+    display: none;
+    left: 30%;
+    top: 85%;
+    font-size: 11px;
+    box-shadow: 0 0 4px brown;
+  }
+  .avb{ font-size: 11px; }
+
+  /* -------------------------------------------------------------- */
+  #userss{
+    display: none;
+    font-size: 11px;
+    width: 110px;
+    margin-top: -5px;
+    box-shadow: 0 0 8px brown;
+  }
+  #button199{
+    font-size: 10px;
+    padding: 2px;
+    width: 35px;
+  }
+  #inst{ display: none; }
+  #usis{
+    width: auto;
+    height: 65px;
+  }
+  #usiks{
+    padding-top: 6px;
+    margin-top: 0;
+    padding-bottom: 5px;
+  }
+
+  /* -------------------------------------------------------------- */
+  #maio{
+    display: none;
+    font-size: 11px;
+    box-shadow: 0 0 8px brown;
+    padding-top: 5px;
+    width: auto;
+    height: auto;
+    padding-bottom: 5px;
+    right: -1%;
+    top: 1%;
+    border: 1px solid brown;
+    padding: 5px 5px 7px;
+  }
+  #opis{
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+  }
+  #oplk{ width: 160px; }
+  #button32{
+    height: 16px;
+    width: 16px;
+    top: -17%;
+    font-size: 11px;
+    margin-top: 4px;
+  }
+  #cont{
+    width: 160px;
+    padding: 3px;
+    gap: 4px;
+  }
+  #button31{
+    background: black;
+    color: brown;
+  }
+  #dropd{
+    right: -2%;
+    display: flex;
+    flex-direction: row;
+  }
+  .finance{
+    height: 14px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ------------------------------------------------------------ */
+  #login{ font-size: 12px; }
+  #register{ font-size: 12px; }
+  #crateacc{ font-size: 12px; }
+  #button54{ font-size: 12px; }
+  #button3{ font-size: 12px; }
+
+  /* ----------------------------------------------- */
+  .butt{ font-size: 8px; }
+  #button12, #button7{ font-size: 9px; }
+  #opts{
+    display: none;
+    left: 12%;
+    top: 38%;
+    font-size: 11px;
+    width: auto;
+  }
+  .ds{
+    font-size: 10px;
+    width: 56px;
+  }
+  #button44{
+    width: 14px;
+    height: 14px;
+    margin-right: 1px;
+  }
+
+  /* ------------------------------------------------------------------------- */
+  #datees{
+    display: none;
+    left: 12%;
+    top: 37%;
+    font-size: 11px;
+  }
+  #button42{
+    font-size: 11px;
+    width: 38px;
+    height: 20px;
+  }
+  #button40{
+    width: 44px;
+    height: 20px;
+    font-size: 11px;
+    margin-top: 2px;
+  }
+  #dob{
+    height: 12px;
+    width: 220px;
+  }
+  #hg{ margin-top: 0; }
+  #tooo{ margin-top: 0; }
+  #validation37, #validation38{ min-height: 2px; }
+
+  /* ---------------------------------------------------------------------- */
+  #filtri{
+    display: none;
+    left: 12%;
+    top: 37%;
+    font-size: 11px;
+  }
+  #filinp{
+    height: 12px;
+    width: 220px;
+  }
+
+  /* ---------------------------------------------------- */
+  #saaide{ display: none; }
+  #saode{
+    color: white;
+    border: 2px solid brown;
+    border-radius: 7px;
+    width: 44px;
+    height: 44px;
+    background: none;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: 0.15s linear;
+    background-color: black;
+    color: brown;
+    margin-right: 3px;
+  }
+  #saode:hover{
+    color: black;
+    background-color: brown;
+    box-shadow: 0 0 8px 0 brown;
+    transform: scale(1.04);
+    cursor: pointer;
+  }
+  #saode:active{ color: white; }
+  #dropd{ display: flex; flex-direction: row; }
+  #saaide{
+    display: none;
+    position: absolute;
+    font-size: 9.5px;
+    margin-left: 80px;
+    top: 1.5%;
+  }
+  #iduu{
+    font-size: 11px;
+    flex-direction: row;
+  }
+
+  #daxuri{
+    background-image: url('../assets/images/cross.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: flex;
+    right: 3%;
+    top: 12%;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+  }
+  #daxuri:hover{
+    scale: 1.04;
+    box-shadow: 0 0 8px red;
+  }
+
+  /* ------------------------------------------------------------------ */
+  #cratetask{ font-size: 11px; }
+
+  #taskname, #tasktitle, #maxusss, #taskdesc{
+    height: 13px;
+  }
+  #avv{ margin-top: -3px; }
+
+  /* ---------------------------------------------------------------- */
+  #fulls{
+    font-size: 10px;
+    width: auto;
+    height: auto;
+    padding-bottom: 8px;
+  }
+  .safio{
+    width: 170px;
+    height: 170px;
+  }
+  .tots{ font-size: 10px; }
+  #dethold{
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  #hsba{
+    margin: 0;
+    padding: 0;
+    height: 24px;
+    align-items: center;
+  }
+  .mf{ margin-left: 48px; }
+  .govi{
+    font-size: 11px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 1px solid brown;
+  }
+  #goff{ font-size: 9px; }
+
+  /* --------------------------------------------------------------------- */
+  #financ{
+    font-size: 11px;
+    left: 6%;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  .asa{ font-size: 10px; }
+  #pofa{ font-size: 10px; }
+  #pofis{ font-size: 10px; }
+  #checkss{ border-bottom: 1px solid #8B5E3C; }
+
+  /* ------------------------------------------------------ */
+  .fxp-box{
+    width: 285px;
+    font-size: 11px;
+    margin: 0;
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+  #resulti{
+    height: 28px;
+    margin-top: 12px;
+  }
+  .fxp-head{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  .fxp-btn{
+    font-size: 14px;
+    margin-top: 26px;
+  }
+  #button43{
+    background-image: url('../assets/images/cross.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 0;
+    border-radius: 20px;
+    background-color: none;
+    color: transparent;
+    width: 18px;
+    height: 18px;
+    left: 95.5%;
+    top: -25%;
+  }
+
+  /* ------------------------------------------------ */
+  #yesno{
+    left: 15.1%;
+    top: 40%;
+    min-width: 260px;
+    font-size: 11px;
+  }
+  .btta{ margin-left: 2px; }
+
+  /* -------------------------------------------------------------------- */
+  #idregister{ font-size: 10px; }
+  #idcrate{ font-size: 11px; }
+  #button14v{ width: 36px; }
+  #indiv{ font-size: 10px; }
+
+  /* -------------------------------------------------------------------- */
+  #task{ margin-top: 60px; }
+  #sataske{ font-size: 11px; }
+
+  /* ------------------------------------------------------------------------- */
+  #deski{
+    position: relative;
+    width: auto;
+    padding-bottom: 60px;
+    margin-top: 18px;
+  }
+  #de{
+    margin: 0;
+    padding: 0;
+  }
+  #konti{
+    height: 180px;
+    width: 280px;
+  }
+  #taskdescription{
+    min-height: 150px;
+    font-size: 11px;
+  }
+  #button27{
+    position: absolute;
+    top: -1.2%;
+    right: 4%;
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    padding: 0;
+    border-radius: 50%;
+    background-image: url('../assets/images/cross.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+  }
+
+  /* ------------------------------------------------------------------------------ */
+  .case{
+    transform: scale(0.72);
+    margin-left: 12px;
+    margin-top: 50px;
+  }
+  .btn op{
+    width: 36px;
+    height: 36px;
+  }
+
+  /* ---------------------------------------------------- */
+  #login{ scale: 0.85; }
+  #register{ scale: 0.85; 
+margin-right: 20px;
+}
+  #authetic{
+    scale: 0.8;
+    font-size: 9px;
+    left: 41.5%;
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  #codl{ font-size: 11px; }
+  #verif{
+    font-size: 15px;
+    color: white;
+  }
+  #instr{ font-size: 11px; }
+  #button51{
+    font-size: 11px;
+    margin-left: 0;
+  }
+  #restpp{
+    background-color: rgba(0, 0, 0, 0.85);
+    left: 10.8%;
+    scale: 0.85;
+    top: 37%;
+  }
+  #opser{ font-size: 12px; }
+  #opse{ color: white; }
+
+  #cratetask{
+    scale: 0.92;
+    font-size: 13px;
+    margin-right: 18.5px;
+  }
+
+  #datees{
+    scale: 0.95;
+    left: 17.65%;
+  }
+  #opts{
+    scale: 0.95;
+    left: 16.1%;
+  }
+  #op{
+    font-size: 15px;
+  }
+  #ip{
+    font-size: 12.5px;
+  }
+  #filtri{
+    scale: 0.95;
+    left: 17.6%;
+  }
+  #na{
+    font-size: 15px;
+  }
+  #ca{
+    font-size: 13px;
+  }
+
+  #task{
+    scale: 0.92;
+    margin-right: 21px;
+  }
+#login{
+    margin-right: 16.5px;
+    scale: 0.93;
+}
+#register{
+    margin-left: 2px;
+}
+#deski{
+    scale: 0.92;
+    margin-right: 20px;
+}
+   #button31{
+    color: white;
+    border: 2px solid brown;
+    border-radius: 7px;
+    width: 44px;
+    height: 44px;
+    background: none;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: 0.15s linear;
+    background-color: black;
+    color: brown;
+    margin-right: 12px;
+  }
+  #button31:hover{
+    color: black;
+    background-color: brown;
+    box-shadow: 0 0 8px 0 brown;
+    transform: scale(1.04);
+    cursor: pointer;
+  }
+  #button31:active{ color: white; }
+  #saaide{
+    scale: 1.14;
+    margin-top: 5px;
+    width: 165px;
+  }
+  #maio{
+    margin-top: 2px;
+    margin-right: 14px;
+    width: 200px;
+  }
+  #cont{
+    width: 200px;
+  }
+  #userss{
+    scale: 1.05;
+    margin-top: -2px;
+  }
+  #fulls{
+    margin-right: 20px;
+  }
+  #financ{
+    scale: 0.85;
+    left: 6%;
+    font-size: 13px;
+    margin-top: 7px;
+  }
+  #ttt{
+    font-size: 15px;
+  }
+  .asa, #pofis{
+    font-size: 13.5px;
+  }
+  #pofa{
+    font-size: 12px;
+  }
+  .fxp-box{
+    font-size: 13px;
+    margin-right: 19px;
+  }
+
+  .case{
+    margin-right: 27px;
+  }
+  #idregister{
+    scale: 0.82;
+    margin-right: 13.7px;
+    font-size: 13px;
+  }
+  #idcrate{
+    scale: 0.9;
+    margin-right: 15px;
+    font-size: 13px;
+  }
+  #meall{
+    margin-left: 8px;
+  }
+}
+
+
+
+
 
 
   .full-wh {
