@@ -2949,7 +2949,9 @@ background-color: #ff7700;
 
 
 
-@media only screen and (min-width: 406px) and (max-width: 413px) {
+@media screen and (min-width: 384px) and (max-width:384px) {
+  
+
     
          #Todolists{
         display: none;
@@ -3188,6 +3190,7 @@ width: 40px;
     left: 14.3%;
     top: 38.5%;
     font-size: 13px;
+    margin-left: 5.6px;
 }
 #button42{
     font-size: 12px;
@@ -3416,6 +3419,7 @@ margin-top: 30px;
     top: 39%;
     min-width: 282px;
     font-size: 13px;
+    margin-left: 3px;
 }
 .btta{
     margin-left: 2px;
@@ -3425,6 +3429,7 @@ margin-top: 30px;
 
 #idregister{
     font-size: 11px;
+    scale: 1;
 }
 #idcrate{
     font-size: 13px;
@@ -3525,7 +3530,6 @@ height: 20px;
 }
 #restpp{
     background-color: rgba(0, 0, 0, 0.85);
-    left: 12.2%;
     scale: 0.9;
 }
 #opser{
@@ -3541,7 +3545,21 @@ height: 20px;
   margin-right: 19.5px;
 }
 #authetic{
-  left: 43.5%;
+  left: 43.8%;
+}
+#restpp{
+  left: 12.2%;
+  margin-left: 4px;
+}
+#opts{
+  margin-left:3.7px;
+}
+#filtri{
+  margin-left: 3.7px;
+}
+#financ{
+  margin-left: 5px;
+  margin-top: 8px;
 }
 
 }
@@ -3663,7 +3681,6 @@ height: 20px;
   }
 
   /*--------------------------------------------------------------*/
-
   #userss{
     display: none;
     font-size: 12px;
