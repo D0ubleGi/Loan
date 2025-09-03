@@ -1718,6 +1718,7 @@ this.todoss.nativeElement.style.opacity='1';
 iva(){
   this.opts.nativeElement.style.display='none';
   this.button12.nativeElement.disabled=false;
+  this.button31.nativeElement.disabled=false;
   this.asd.nativeElement.style.pointerEvents='auto';
 this.asd.nativeElement.style.opacity='1';
  this.todoss.nativeElement.style.pointerEvents='auto';

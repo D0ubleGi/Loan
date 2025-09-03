@@ -2950,9 +2950,7 @@ background-color: #ff7700;
 
 
 @media screen and (min-width: 384px) and (max-width:384px) {
-  
 
-    
          #Todolists{
         display: none;
         margin-top: 30px;
@@ -3234,9 +3232,6 @@ width: 40px;
 }
 /*----------------------------------------------------*/
 
-#saaide{
-    display: none;
-}
 #saode{
     color: white;
     border: 2px solid brown;
@@ -3266,14 +3261,7 @@ transform: scale(1.04);
     display: flex;
     flex-direction: row;
 }
-#saaide{
-    display: none;
-    position: absolute;
-    font-size: 10.2px;
-    margin-left: 100px;
-    top: 1.5%;
-    scale: 1.1;
-}
+
 #iduu{
     font-size: 13px;
     flex-direction: row;
@@ -3561,7 +3549,14 @@ height: 20px;
   margin-left: 5px;
   margin-top: 8px;
 }
-
+#saaide{
+    display: flex;
+    position: absolute;
+    font-size: 10.2px;
+    margin-left: 100px;
+    top: 1.5%;
+    scale: 0.9;
+}
 }
 
 
