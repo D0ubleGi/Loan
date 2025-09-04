@@ -611,7 +611,9 @@ const yyyyTime = today.getFullYear();
           this.task.nativeElement.style.display = 'flex';
           this.button31.nativeElement.disabled=true;
           this.button31.nativeElement.style.display='flex';
-          this.saaide.nativeElement.style.display='flex';
+          if(this.isPhone()){
+          this.saode.nativeElement.style.display='flex';
+          }
           this.button31.nativeElement.style.opacity='0.8';
           this.lists.nativeElement.style.display = 'none';
           this.meall.nativeElement.style.display='none';

@@ -360,6 +360,7 @@ box-shadow: 0 0 35px 5px rgb(60, 11, 11);
     border: 2.3px solid rgb(60, 59, 59);
      background-color: rgba(0, 0, 0, 0.7);
      overflow-x: hidden;
+     scale: 1.2;
 }
 
 #todos {
@@ -584,6 +585,7 @@ color: #d2b48c;
     box-shadow: 0 0 1050px 0px brown;
 background-color: rgba(0, 0, 0, 0.7);
     overflow-x: hidden;
+    scale: 1.2;
 }
 
 #todo {
@@ -2932,14 +2934,30 @@ background-color: #ff7700;
 #yesno{
     border: 1px solid brown;
     box-shadow: 0 0 30px 1px brown;
-    left: 40.5%;
+    left: 42.8%;
     top: 36%;
     border-radius: 12px;
+    scale: 1.25;
 }
 #opse{
     color: white;
 }
+#idregister,#idcrate,#register,#login,#cratetask,#button31,#task,#deski{
+  scale: 1.2;
+}
+#restpp{
+  left: 41.69%;
+  scale: 1.15;
+}
 
+#authetic{
+  scale: 1.15;
+    left: 51.4%;
+}
+#financ{
+  margin-left: 25px;
+  scale: 1.15;
+}
 
 
 
