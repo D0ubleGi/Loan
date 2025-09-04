@@ -609,6 +609,8 @@ const yyyyTime = today.getFullYear();
           this.statuso.nativeElement.textContent=stats;  
           this.curridi = element.idd;
           this.task.nativeElement.style.display = 'flex';
+          this.button31.nativeElement.disabled=true;
+          this.button31.nativeElement.style.opacity='0.8';
           this.lists.nativeElement.style.display = 'none';
           this.meall.nativeElement.style.display='none';
           this.searchts.nativeElement.style.display = 'none';
@@ -651,6 +653,8 @@ const yyyyTime = today.getFullYear();
       this.validation17.nativeElement.textContent='';
       this.validation17.nativeElement.style.color='none';
       this.task.nativeElement.style.display='none';
+      this.button31.nativeElement.disabled=false;
+this.button31.nativeElement.style.opacity='1';
       this.lists.nativeElement.style.display='flex';
       this.meall.nativeElement.style.display='flex';
       this.socket.loadtasks(this.currid);
@@ -746,6 +750,8 @@ const yyyyTime = today.getFullYear();
         this.ttaknn.nativeElement.textContent=taskti;
         this.sataske.nativeElement.textContent=taskdesc;
         this.task.nativeElement.style.display='flex';
+        this.button31.nativeElement.disabled=true;
+        this.button31.nativeElement.style.opacity='0.8';
         this.lists.nativeElement.style.display='none';
         this.meall.nativeElement.style.display='none';
         this.searchts.nativeElement.style.display='none';
@@ -1209,6 +1215,8 @@ this.asd.nativeElement.style.display='none';
 }
 gob(){
   this.task.nativeElement.style.display='none';
+  this.button31.nativeElement.disabled=false;
+  this.button31.nativeElement.style.opacity='1';
   this.lists.nativeElement.style.display='flex';
   this.meall.nativeElement.style.display='flex';
 }
@@ -1329,7 +1337,7 @@ removee(){
     this.renderer.addClass(this.remove.nativeElement,'hov2');
     this.remove.nativeElement.style.border='1px solid green';
     this.act=true;
-this.Todolists.nativeElement.style.cursor = 'url("assets/images/icons8-x-18.png") 0 0, auto';console.log(this.Todolists.nativeElement.style.cursor);
+this.Todolists.nativeElement.style.cursor = 'url("assets/images/icons8-x-18.png") 0 0, auto';
 const haia=document.getElementsByClassName('lists');
 for (let i = 0; i < haia.length; i++) {
   const el = haia[i] as HTMLElement;
@@ -1447,10 +1455,14 @@ installApp(): void {
 det(){
 this.deski.nativeElement.style.display='flex';
 this.task.nativeElement.style.display='none';
+this.button31.nativeElement.disabled=true;
+this.button31.nativeElement.style.opacity='0.8';
 }
 buk(){
 this.deski.nativeElement.style.display='none';
 this.task.nativeElement.style.display='flex';
+this.button31.nativeElement.disabled=true;
+this.button31.nativeElement.style.opacity='0.8';
 }
 
 byname(){

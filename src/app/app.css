@@ -2949,7 +2949,7 @@ background-color: #ff7700;
 
 
 
-@media screen and (min-width: 384px) and (max-width:384px) {
+@media screen and (min-width: 406px) and (max-width:430px) {
 
          #Todolists{
         display: none;
@@ -3049,7 +3049,7 @@ background-color: #ff7700;
   }
   #meall{
     display: none;
-    left: 34.5%;
+    left: 32.5%;
     top:87.4%;
     font-size: 13px;
     box-shadow: 0 0 5px brown;
@@ -3188,7 +3188,7 @@ width: 40px;
     left: 14.3%;
     top: 38.5%;
     font-size: 13px;
-    margin-left: 5.6px;
+    
 }
 #button42{
     font-size: 12px;
@@ -3407,7 +3407,8 @@ margin-top: 30px;
     top: 39%;
     min-width: 282px;
     font-size: 13px;
-    margin-left: 3px;
+    margin-left: -1.5px;
+  
 }
 .btta{
     margin-left: 2px;
@@ -3433,6 +3434,7 @@ margin-top: 30px;
 
 #task{
     margin-top: 70px;
+    margin-right: 20.5px;
 }
 
 #sataske{
@@ -3446,6 +3448,7 @@ margin-top: 30px;
     width: auto;
     padding-bottom: 70px;
     margin-top: 20px;
+    margin-right: 20.5px;
 }
 #de{
     margin: 0;
@@ -3492,6 +3495,7 @@ height: 20px;
 /*----------------------------------------------------*/
 #login{
     scale: 0.9;
+    margin-left: 6px;
 }
 #register{
     scale: 0.9;
@@ -3533,29 +3537,29 @@ height: 20px;
   margin-right: 19.5px;
 }
 #authetic{
-  left: 43.8%;
+  left: 43.5%;
 }
 #restpp{
-  left: 12.2%;
+  left: 11.2%;
   margin-left: 4px;
 }
 #opts{
-  margin-left:3.7px;
+  margin-right: 2.4px;
 }
 #filtri{
-  margin-left: 3.7px;
+margin-right: 2.4px;
 }
 #financ{
-  margin-left: 5px;
+  margin-right: 0.5px;
   margin-top: 8px;
 }
 #saaide{
-    display: flex;
+    display: none;
     position: absolute;
     font-size: 10.2px;
-    margin-left: 100px;
+    margin-left: 84px;
     top: 1.5%;
-    scale: 0.9;
+    scale: 1.0;
 }
 }
 
@@ -3566,7 +3570,7 @@ height: 20px;
 
 
 
-@media only screen and (min-width: 440px) and (max-width: 440px) and (orientation: portrait) {
+@media only screen and (min-width: 439px) and (max-width: 500px) and (orientation: portrait) {
 
     #Todolists{
         display: none;
@@ -5902,7 +5906,7 @@ margin-right: 20px;
 
 
 
-@media (min-width: 768px) and (max-width: 991.98px){
+@media (min-width: 600px) and (max-width: 1023px){
 
 #Todolists{
         display: none;
@@ -5910,16 +5914,16 @@ margin-right: 20px;
         box-shadow: 0 0 10px brown;
         font-size: 13px;
         margin-right: 12.5px;
-        scale: 1.5;
+        scale: 1.3;
     }
     #searchts{
         display: none;
         width: 150px;
         height: auto;
-        right: 5.4%;
-        top: 3%;
+        right: 4%;
+        top: 2.5%;
         box-shadow:  0 0 10px brown;
-        scale: 1.4;
+        scale: 1.22;
     }
     #usis{
         font-size: 10px;
@@ -5984,7 +5988,7 @@ margin-right: 20px;
     width: 330px;
     font-size: 13px;
     margin-right: 19.5px;
-    scale: 1.6;
+    scale: 1.3;
   }
  
   #cratetask{
@@ -6018,10 +6022,10 @@ margin-right: 20px;
     display: none;
     font-size: 12px;
     width: 135px;
-    margin-top: 45px;
-    margin-left: 45px;
+    margin-top: 22px;
+    left: 5%;
     box-shadow: 0 0 10px brown;
-    scale: 1.6;
+    scale: 1.35;
   }
   #button199{
 font-size: 11px;
@@ -6051,13 +6055,17 @@ width: 40px;
     width: auto;
     height: auto;
     padding-bottom: 5px;
-    right: 9.6%;
-    top: 4.25%;
+    right: 6.9%;
+    top: 3.34%;
     border: 1px solid brown;
     padding: 5px;
     padding-bottom: 7px;
-    scale: 1.5;
+    scale: 1.3;
   }
+  #button32{
+    right: -13%;
+  }
+ 
   .finance{
   height: 16px;
 }
@@ -6078,7 +6086,7 @@ width: 40px;
   #cont{
     width: 245px;
     padding: 3px;
-    gap:4.5px;
+    gap:3.7px;
       overflow-x: hidden;
   }
   #button31{
@@ -6382,11 +6390,11 @@ scale: 1.8;
 /*------------------------------------------------*/
 
 #yesno{
-    left: 31.5%;
-    top: 44%;
+    left: 28.4%;
+    top: 40%;
     min-width: 282px;
     font-size: 13px;
-    scale: 1.5;
+    scale: 1.33;
 }
 .btta{
     margin-left: 2px;
@@ -6498,9 +6506,9 @@ height: 20px;
 }
 #restpp{
     background-color: rgba(0, 0, 0, 0.85);
-    left: 30%;
-    scale: 1.2;
-    margin-top: 80px;
+    left: 26.8%;
+    scale: 1.1;
+    top: 39.2%;
 }
 #opser{
     font-size: 14px;
@@ -6510,34 +6518,35 @@ height: 20px;
 }
 #login{
   margin-right: 21px;
-  scale: 1.2;
+  scale: 1.1;
 }
 #register{
   margin-right: 19.5px;
-  scale: 1.2;
+  scale: 1.1;
 }
 #authetic{
-  left: 53.35%;
-  scale: 1.15;
+  left: 51.93%;
+  scale: 1.07;
   margin-top: 50px;
 }
 
 #saode,#button31{
-  scale: 1.6;
-  margin-right: 40px;
-  margin-top: 10px;
+  scale: 1.25;
 }
 #saode{
-  margin-right: 33px;
+  margin-right: 14px;
 }
 #saaide{
-  scale: 2;
-  left:74%;
-  top: 3.2%;
+  scale: 1.6;
+  left:73%;
+  top: 2.9%;
+}
+#button31{
+  margin-right: 25px;
 }
 #meall{
-  scale: 1.6;
-  margin-left: 53px;
+  scale: 1.3;
+  margin-left: 35px;
 }
 #idcrate,#idregister{
   scale: 1.45;
@@ -6550,6 +6559,47 @@ height: 20px;
         #task,#deski{
           scale: 1.5;
         }
+
+        #cratetask{
+          scale: 1.23;
+          margin-left: 6px;
+        }
+
+  #opts{
+    left: 28.95%;
+    scale: 1.27;
+  }
+  #filtri{
+    left: 28.95%;
+    scale: 1.27;
+  }
+  #datees{
+    left: 28.85%;
+    scale: 1.27;
+  }
+
+  #task{
+    scale: 1.3;
+  }
+  #deski{
+    scale: 1.3;
+  }
+  .case{
+    scale: 0.8;
+  }
+  .fxp-box{
+    scale: 1.35;
+  }
+  #fulls{
+    scale: 1.4;
+  }
+  #financ{
+    scale: 1.34;
+    left: 24.3%;
+  }
+  #idcrate,#idregister{
+    scale: 1.25;
+  }
 }
 
 
