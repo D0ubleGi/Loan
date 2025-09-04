@@ -360,7 +360,6 @@ box-shadow: 0 0 35px 5px rgb(60, 11, 11);
     border: 2.3px solid rgb(60, 59, 59);
      background-color: rgba(0, 0, 0, 0.7);
      overflow-x: hidden;
-     scale: 1.2;
 }
 
 #todos {
@@ -585,7 +584,6 @@ color: #d2b48c;
     box-shadow: 0 0 1050px 0px brown;
 background-color: rgba(0, 0, 0, 0.7);
     overflow-x: hidden;
-    scale: 1.2;
 }
 
 #todo {
@@ -2937,13 +2935,31 @@ background-color: #ff7700;
     left: 42.8%;
     top: 36%;
     border-radius: 12px;
-    scale: 1.25;
 }
 #opse{
     color: white;
 }
+@media (min-width:1520px){
+#idregister,#idcrate,#register,#login,#cratetask,#button31,#task,#Todolist,#lists,#deski{
+  scale: 1.2;
+}
+#yesno{
+   scale: 1.25;
+}
+#restpp{
+  left: 41.69%;
+  scale: 1.15;
+}
 
-
+#authetic{
+  scale: 1.15;
+    left: 51.4%;
+}
+#financ{
+  margin-left: 25px;
+  scale: 1.15;
+}
+}
 
 
 
@@ -3564,6 +3580,7 @@ margin-right: 2.4px;
     top: 1.5%;
     scale: 1.0;
 }
+
 }
 
 
@@ -3573,7 +3590,8 @@ margin-right: 2.4px;
 
 
 
-@media only screen and (min-width: 439px) and (max-width: 500px) and (orientation: portrait) {
+@media only screen and (min-width: 439px) and (max-width: 500px) and (orientation: portrait) {    
+
 
     #Todolists{
         display: none;
@@ -5894,6 +5912,7 @@ margin-right: 20px;
   #meall{
     margin-left: 8px;
   }
+
 }
 
 
