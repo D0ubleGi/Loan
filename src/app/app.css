@@ -2942,25 +2942,9 @@ background-color: #ff7700;
 #opse{
     color: white;
 }
-@media(min-width:1024px){
-#idregister,#idcrate,#register,#login,#cratetask,#button31,#task,#deski{
-  scale: 1.2;
-}
-#restpp{
-  left: 41.69%;
-  scale: 1.15;
-}
 
-#authetic{
-  scale: 1.15;
-    left: 51.4%;
-}
-#financ{
-  margin-left: 25px;
-  scale: 1.15;
-}
 
-}
+
 
 
 
