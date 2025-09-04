@@ -610,11 +610,14 @@ const yyyyTime = today.getFullYear();
           this.curridi = element.idd;
           this.task.nativeElement.style.display = 'flex';
           this.button31.nativeElement.disabled=true;
+          this.button31.nativeElement.style.display='flex';
+          this.saaide.nativeElement.style.display='flex';
           this.button31.nativeElement.style.opacity='0.8';
           this.lists.nativeElement.style.display = 'none';
           this.meall.nativeElement.style.display='none';
           this.searchts.nativeElement.style.display = 'none';
           this.liske.nativeElement.style.display = 'none';
+          this.maio.nativeElement.style.display='none';
           this.salike.nativeElement.innerHTML = '';
           if(this.isPhone()){
             this.saaide.nativeElement.style.display='none';
