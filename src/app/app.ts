@@ -582,6 +582,7 @@ const yyyyTime = today.getFullYear();
          divi.appendChild(pi);
         divi.addEventListener('click', () => {
           const loan=element.loaner;
+          const usiss=element.user;
           const amount=element.amount;
           const currecny=element.currency.toUpperCase();
           const dt=element.datetime;
@@ -599,7 +600,7 @@ const yyyyTime = today.getFullYear();
             
           }
           else{
-          this.lender.nativeElement.textContent=this.useri;
+          this.lender.nativeElement.textContent=usiss;
           this.loanerr.nativeElement.textContent=loan; 
           this.amounti.nativeElement.textContent=amount;
           this.currencyy.nativeElement.textContent=currecny;

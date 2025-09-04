@@ -2940,7 +2940,7 @@ background-color: #ff7700;
     color: white;
 }
 @media (min-width:1520px){
-#idregister,#idcrate,#register,#login,#cratetask,#button31,#task,#Todolist,#lists,#deski{
+#idregister,#idcrate,#register,#login,#cratetask,#button31,#task,#Todolists,#lists,#deski{
   scale: 1.2;
 }
 #yesno{
